@@ -1,0 +1,306 @@
+
+
+@media (max-width: 376px) {
+    
+
+
+    body{
+        width: 375px;
+        height: 300vh;
+        font-size: 16px;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    #right{
+        display: none;
+    }
+    #left{
+        display: none;
+    }
+    
+    /* this is the main page */
+    
+    
+    #middle{
+        width: 100%;
+        height: 100%;
+    
+    }
+    header{
+        width: 100%;
+        height: 5%;
+        padding-inline: 5%;
+        padding-right: 15%;
+        /* padding-block: 3%; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #mainlogo{
+        width: 40px;
+        height: 40px;
+        background-color: #F16718;
+    }
+    #toporderbtn{
+        width: 50%;
+        height: 35%;
+    }
+    
+    #toporderbtn:hover{
+        cursor: pointer;
+        background-color: #162542;
+        color: white;
+    }
+    #section1btn:hover{
+        cursor: pointer;
+        background-color: #FF9B62;;
+    }
+    
+    .orderbtn{
+        
+        background: #E8EFF2;
+    border-radius: 8px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    padding-inline: 2%;
+        padding-block: 1%;
+        color: #162542;
+    }
+    
+    #section1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 20%;
+        padding-inline: 5%;
+        /* padding-right: 20%; */
+    }
+    .section1div{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* padding-right: 20%; */
+    }
+    #section1img{
+        background-image: url(./photos/kbpic1mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: right; */
+        border-radius: 18px;
+        background-position: center;
+        height: 50%;
+        width: 100%;
+        padding-right: 5%;
+    }
+    .section1divleft{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    #section1divlefttop{
+        display: flex;
+        flex-direction: column;
+        /* padding-right: 5%; */
+        justify-content: space-around;
+        height: 70%;
+    }
+    h1{
+        font-family: 'Barlow', sans-serif;
+        font-weight: 900;
+        color: #162542;
+    }
+    #section1H{
+        font-size: 3em;
+        width: 60%;
+        height: fit-content;
+    }
+    p{
+        font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #7B8BAD;
+    }
+    #section1P{
+        width: 90%;
+        margin-bottom: 40px;
+     }
+    
+    #section1divleftbottom{
+    display: flex;
+    flex-direction: row;
+        height: 30%;
+        padding-right: 5%;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10%;
+    }
+    #section1btn{
+        background: #F16718;
+        padding-inline: 2%;
+        padding-block: 3%;
+        border-radius: 8px;
+        text-align: center;
+    border: none;
+    color: white;
+    display: inline-block;
+    width: 45%;
+    
+    }
+    h3{
+        font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    text-align: left;
+    display: inline-block;
+    color: #7B8BAD;
+    }
+    
+    
+    
+    #section2{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 5%;
+    }
+    
+    #section2divtext{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3%;
+        justify-content: flex-end;
+        gap: 5%;
+        align-items: center;
+        /* padding-block: 3%; */
+    }
+    #section2H{
+    
+    font-size: 2em;
+    height: 45%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 15%;
+    text-align: center;
+    }
+    #section2P{
+        text-align: center;
+    font-size: 1em;
+    height: 55%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 15%;
+    /* padding-top: 3%; */
+    /* padding-bottom: 10%; */
+    }
+    
+    #section2imgs{
+        height: 40%;
+        width: 100%;
+        padding-top: 3%;
+        /* padding-block: 3%; */
+        display: flex;
+        justify-content: space-between;
+        padding-right: 13%;
+    }
+    #section2pic1{
+        height: 100%;
+        width: 25%;
+        background-image: url(./photos/section2pic1mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 18px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        
+    }
+    #section2pic2{
+        height: 100%;
+        width: 70%;
+        background-image: url(./photos/section2pic2mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 18px;
+    }
+    
+    
+    #section3{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .section3div{
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* padding-bottom: 5%; */
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section3logo{
+        height: 65px;
+    width: 65px;
+    border-radius: 16px;
+    background-color: #F16718;
+    display: flex;
+    align-items: center;
+        justify-content: center;
+    }
+    .section3H{
+        font-size: 1.5em;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        padding-inline: 30%;
+    }
+    .section3P{
+        width: 100%;
+        height: 30%;
+        font-size: 1em;
+        text-align: center;
+        padding-left: 10%;
+    padding-right: 10%;
+    }
+    #hcard4{
+        padding-inline: 35%;
+    }
+    /* #card1{
+        padding-right: 4%;
+    } */
+    
+    footer{
+        width: 100%;
+        height: 4%;
+        font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    color: #7B8BAD;
+    text-align: center;
+    padding-block: 5%;
+    }
+    
+    }
